@@ -33,11 +33,11 @@ public class Main {
 
         paint.addCircle(circle1);
         paint.addCircle(circle2);
-       // paint.addRectangle(rect1);
-       // paint.addRectangle(rect2);
-       // paint.addRectangle(rect3);
-       // paint.addTriangle(tri1);
-       // paint.addTriangle(tri2);
+       paint.addRectangle(rect1);
+        paint.addRectangle(rect2);
+        paint.addRectangle(rect3);
+        paint.addTriangle(tri1);
+        paint.addTriangle(tri2);
         paint.drawAll();
         paint.printAll();
     }

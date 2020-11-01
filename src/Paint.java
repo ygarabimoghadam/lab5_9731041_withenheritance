@@ -10,10 +10,10 @@ public class Paint {
     public  void addCircle(Shape c1){
         shapes.add(c1);
     }
-    public  void addTriangle(Triangle t1){
+    public  void addTriangle(Shape t1){
         shapes.add(t1);
     }
-    public  void addRectangle (Rectangle r1){
+    public  void addRectangle (Shape r1){
         shapes.add(r1);
     }
     public void drawAll(){

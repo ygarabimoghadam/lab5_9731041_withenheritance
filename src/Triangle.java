@@ -7,8 +7,12 @@ public class Triangle extends Polygon {
     private ArrayList<Integer> sides = new ArrayList<>();
 
     public Triangle(Integer ... args) {
-
         super(args);
+        for (int a:args
+             ) {
+            sides.add(a);
+
+        }
 
     }
 @Override

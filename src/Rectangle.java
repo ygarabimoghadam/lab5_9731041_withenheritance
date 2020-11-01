@@ -4,9 +4,13 @@ import java.util.Objects;
 public class Rectangle extends Polygon {
     private ArrayList<Integer> sides = new ArrayList<>();
 
-    public Rectangle(int num1 , int num2, int num3 , int num4){
+    public Rectangle(Integer ...args){
 
-        super(num1,num2,num3,num4);
+        super(args);
+        for (int a:args
+             ) {sides.add(a);
+
+        }
     }
 
     public ArrayList<Integer> getSides() {
